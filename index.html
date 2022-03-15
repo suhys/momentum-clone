@@ -8,20 +8,21 @@
     <title>Momentum</title>
   </head>
   <body>
+    <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
+      <div id="login-ask"><span>What is your name?</span></div>
       <input
         required
         maxlength="15"
         type="text"
-        placeholder="what is your name"
+        placeholder="Enter your name"
       />
       <button>Log In</button>
     </form>
-    <h2 id="clock">00:00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
     <div id="quote">
       <span></span>
-      <span></span>
+      <!-- <span></span> -->
     </div>
     <div id="todo-ask">
       <span>What is your main focus today?</span>

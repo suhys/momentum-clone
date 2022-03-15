@@ -1,3 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
 .hidden {
   display: none;
+}
+
+body {
+  color: whitesmoke;
+  font-family: "Fredoka", sans-serif;
+}
+
+#bgImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+#clock {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 120px;
+}
+
+#greeting {
+  margin: 10px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#quote {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 25px;
+}
+
+#todo-ask {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+#todo-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  position: relative;
+}
+#todo-form input {
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  background-color: transparent;
+  width: 400px;
+  color: whitesmoke;
+}
+
+#todo-form input::placeholder {
+  color: whitesmoke;
+  opacity: 0.7;
+  font-size: 17px;
+}
+#todo-list {
+  font-size: 20px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#todo-list button {
+  border: none;
+  background-color: transparent;
+}
+
+#weather {
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
 }

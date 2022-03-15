@@ -9,3 +9,4 @@ bgImage.src = `img/${chosenImage}`;
 console.log(bgImage);
 
 document.body.appendChild(bgImage);
+bgImage.id = "bgImage";
